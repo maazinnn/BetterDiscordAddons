@@ -15,6 +15,7 @@
 /* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
 
 :root {
 	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
@@ -33,7 +34,12 @@
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
 	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
-	--home-image: url('https://i.pinimg.com/originals/64/04/4d/64044d17f390f8c2042ce6cdc7f0be0d.gif');
+	 
+         --homeImage: url('https://i.pinimg.com/originals/64/04/4d/64044d17f390f8c2042ce6cdc7f0be0d.gif');
+         --homeImageSize: cover;
+         --themeColor1: #36D1DC;
+         --themeColor2: #5B86E5;
+         --customFont: Open Sans;
 	
 	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
 	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
