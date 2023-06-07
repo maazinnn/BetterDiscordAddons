@@ -38,8 +38,7 @@
          --homeImage: url('https://i.pinimg.com/originals/64/04/4d/64044d17f390f8c2042ce6cdc7f0be0d.gif');
          --homeImageSize: cover;
          --themeColor1: #36D1DC;
-         --themeColor2: #5B86E5;
-         --customFont: Open Sans;
+         --themeColor2: #5B86E5;        
 	
 	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
 	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
